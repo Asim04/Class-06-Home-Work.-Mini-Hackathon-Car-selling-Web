@@ -9,8 +9,8 @@ const navbar2 = () => {
             <div>
                 <ul className="flex space-x-2 ml-28">
                     <li className="text-red-700 ">اردہ</li>
-                    <Link href=""><li className="hover:text-blue-700">| sign up</li></Link>
-                    <Link href=""><li className="hover:text-blue-700">| sign in</li></Link>
+                    <Link href=""><li >| <span className="hover:text-blue-700">sign up</span></li></Link>
+                    <Link href=""><li >| <span className="hover:text-blue-700">sign in</span></li></Link>
                 </ul>
             </div>
         </nav>
